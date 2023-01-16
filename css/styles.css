@@ -1,3 +1,10 @@
+:root {
+    --main-txt-color: #2C2C2C;
+    --accent-text-color: #7EB101;
+    --btn-link-color: #BBF330;
+    
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
