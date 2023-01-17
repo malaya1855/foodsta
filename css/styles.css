@@ -2,11 +2,92 @@
     --main-txt-color: #2C2C2C;
     --accent-text-color: #7EB101;
     --btn-link-color: #BBF330;
-    
+    --white-color: #ffffff;
+
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #2C2C2C;
+    line-height: 1,5;
+    color: var(--main-txt-color);
+}
+a {
+    text-decoration: none;
+    list-style:none;
+    color:currentColor;
+}
+li {list-style: none;}
+.btn{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1,5;
+    background-color: var(--btn-link-color);
+}
+.btn-light{
+    background-color: var(--white-color);
+    border: 2px solid var(--accent-text-color);
+    
+}
+.nav{
+    font-size: 14px;
+    line-height: 1,14;
+}
+.nav:hover,
+.nav:focus
+{
+    color: var(--btn-link-color);
+}
+.current{ 
+    text-decoration: underline;
+    color: var(--btn-link-color);
+    
+}
+.hero-title {
+    font-size: 48px;
+    line-height: 1,2;
+}
+.section-title {
+    font-size: 42px;
+line-height: 1,2;
+}
+.section-subtitle,
+.offer{
+    font-size: 18px;
+line-height: 1,4;
+}
+.favorites{
+    text-align: center;
+}
+.undertitle {
+    font-size: 16px;
+    line-height: 1,2;
+}
+.feedback{
+    font-size: 18px;
+line-height: 1,2;
+}
+.customer-name,
+.subscribe{
+font-weight: 500;
+font-size: 14px;
+line-height: 1,5;
+}
+.customer-status{
+    font-size: 14px;
+line-height: 1,5;
+}
+.add-mark {
+    font-size: 12px;
+line-height: 1,2;
+}
+.link{
+    font-size: 12px;
+line-height: 1,2;
+    color: var(--accent-text-color);
+    text-decoration: underline;
+}
+.link:hover,
+.link:focus {
+   font-weight: 500;
 }
